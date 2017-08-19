@@ -8,6 +8,8 @@ import com.orm.SugarRecord;
 
 public class Pending extends SugarRecord {
 
+
+
     private String name, description;
     private boolean done;
 

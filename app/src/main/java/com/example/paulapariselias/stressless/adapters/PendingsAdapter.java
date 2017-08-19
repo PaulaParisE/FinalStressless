@@ -9,7 +9,6 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 
-import com.example.paulapariselias.stressless.PendingClickListener;
 import com.example.paulapariselias.stressless.R;
 import com.example.paulapariselias.stressless.data.Queries;
 import com.example.paulapariselias.stressless.models.Pending;

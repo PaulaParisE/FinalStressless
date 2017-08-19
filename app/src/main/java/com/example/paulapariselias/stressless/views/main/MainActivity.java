@@ -1,18 +1,19 @@
-package com.example.paulapariselias.stressless;
+package com.example.paulapariselias.stressless.views.main;
 
 import android.app.Dialog;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
+import com.example.paulapariselias.stressless.R;
 import com.example.paulapariselias.stressless.models.Pending;
 
 public class MainActivity extends AppCompatActivity {
@@ -71,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
                 dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
                 dialog.show();
+
 
             }
         });

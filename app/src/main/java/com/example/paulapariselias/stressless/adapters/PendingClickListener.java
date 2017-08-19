@@ -1,4 +1,4 @@
-package com.example.paulapariselias.stressless;
+package com.example.paulapariselias.stressless.adapters;
 
 /**
  * Created by paulapariselias on 18-08-17.

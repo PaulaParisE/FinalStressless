@@ -25,6 +25,7 @@ public class DetailsActivity extends AppCompatActivity {
         long idPending = getIntent().getLongExtra(PendingsFragment.PENDING_ID,0);
 
         pending = Pending.findById(Pending.class, idPending);
+        
         pending.getName();
 
 
